@@ -1,1 +1,6 @@
-
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+  <prescription type="service" sender="other-app" class="com.xiaomi.push.service.XMPushService"/>
+  <prescription type="service" sender="other-app" class="com.xiaomi.mipush.sdk.MessageHandleService"/>
+  <prescription type="service" sender="other-app" class="com.xiaomi.push.service.XMPushService"/>
+  <prescription type="service" sender="other-app" class="com.xiaomi.push.service.XMJobService"/>
+</prescriptions>
